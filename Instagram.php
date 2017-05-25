@@ -100,7 +100,7 @@ class Instagram extends \yii\base\Widget
 			if(!empty($medias)) {
 				foreach ($medias as $key => $item) {
 					$images[$key]['id'] 			= $item->id;
-					$images[$key]['code'] 			= $item->code;
+					$images[$key]['shortcode'] 		= $item->shortcode;
 					$images[$key]['created'] 		= $item->createdTime;
 					$images[$key]['text'] 			= $item->caption;
 					$images[$key]['link'] 			= $item->link;
